@@ -1,5 +1,9 @@
-$(document).ready(function(){
-    $('.carousel').carousel({
+    
+
+
+
+$(document).on('ready page:load', function () {
+	$('.carousel').carousel({
     	interval: 3500
     });
 
@@ -19,4 +23,5 @@ $(document).ready(function(){
 	        scrollTop: $("#contact").offset().top
 	    }, 2000);
 	});
+
   });
