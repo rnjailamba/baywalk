@@ -75,13 +75,18 @@ body {
 	  color: #e74c3c;
 	  border-bottom: 3px solid #e74c3c;
 	}
-	#about:hover {
+	#aboutt:hover {
 	  color: #2ecc71;
 	  border-bottom: 3px solid #2ecc71;
 	}
 
+	#reserve:hover {
+	  color: #e67e22;
+	  border-bottom: 3px solid #e67e22;
+	}
 
-	#services:hover {
+
+	#servicess:hover {
 	  color: #f1c40f;
 	  border-bottom: 3px solid #f1c40f;
 	}
@@ -807,5 +812,6 @@ body {
 }
 
 //Red line
-.redline{
+#contact{
+	background-color: white;
 }
